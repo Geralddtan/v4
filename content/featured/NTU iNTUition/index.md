@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: '1st Runner Up – NTU iNTUition v7.0 Hackathon'
 cover: './image.png'
 github: 'https://github.com/Geralddtan/CheatSheet-Builder'

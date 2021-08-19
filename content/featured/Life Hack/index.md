@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Winner - LifeHack2020 NUS School of Computing Hackathon'
 cover: ''
 github: ''
