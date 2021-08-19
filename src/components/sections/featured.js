@@ -278,7 +278,8 @@ const StyledProject = styled.li`
       }
     }
 
-    .img {
+    ${
+  '' /* .img {
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1) brightness(90%);
@@ -288,7 +289,8 @@ const StyledProject = styled.li`
         width: auto;
         height: 100%;
         filter: grayscale(100%) contrast(1) brightness(80%);
-      }
+      } */
+}
     }
   }
 `;
@@ -306,7 +308,11 @@ const Featured = () => {
               title
               cover {
                 childImageSharp {
-                  gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+                  gatsbyImageData(
+                    width: 700
+                    placeholder: DOMINANT_COLOR
+                    formats: [AUTO, WEBP, AVIF]
+                  )
                 }
               }
               tech
@@ -337,7 +343,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Achievements
       </h2>
 
       <StyledProjectsGrid>
@@ -351,7 +357,7 @@ const Featured = () => {
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    <p className="project-overline">Achievement</p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>

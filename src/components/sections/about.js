@@ -18,6 +18,7 @@ const StyledAboutSection = styled.section`
     }
   }
 `;
+
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
@@ -79,13 +80,15 @@ const StyledPic = styled.div`
       }
     }
 
-    .img {
+    ${
+  '' /* .img {
       position: relative;
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
-    }
+    } */
+}
 
     &:before,
     &:after {
@@ -126,7 +129,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'Pyspark', 'R', 'JavaScript', 'React', 'Nextjs'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,13 +139,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I am Gerald a Final year Business Analytics undergraduate studying at the National
+              University of Singapore! Professionally, I aim to enter the field of Data
+              Science/Analytics and in my free time, i enjoy watching soccer!
             </p>
 
-            <p>
+            {/* <p>
               Fast-forward to today, and I've had the privilege of working at{' '}
               <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
               <a href="https://starry.com/">a start-up</a>,{' '}
@@ -151,7 +153,7 @@ const About = () => {
               main focus these days is building accessible, inclusive products and digital
               experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
               clients.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I've been working with recently:</p>
           </div>
