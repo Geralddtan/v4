@@ -11,27 +11,27 @@ const IconLogo = () => (
             fill="currentColor"
           />
         </g>
-        <polygon
+        {/* <polygon
           id="Shape"
           stroke="currentColor"
           strokeWidth="5"
           strokeLinecap="round"
           strokeLinejoin="round"
-          // points="43,10 0,10 0,80 43,80 95,80 95,10"
-          points="28 0 0 22 0 67 28 95 60 95 88 68 88 23 60 0"
-        />
-        {/* <g transform="translate(6, 4)">
-        <circle 
-        cx="40" 
-        cy="44" 
-        r="47" 
-        id="Shape"
-        stroke="currentColor"
-        strokeWidth="5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        />
-        </g> */}
+          points="43,10 0,10 0,80 43,80 95,80 95,10"
+          // points="28 0 0 22 0 67 28 95 60 95 88 68 88 23 60 0"
+        /> */}
+        <g transform="translate(6, 4)">
+          <circle
+            cx="40"
+            cy="44"
+            r="47"
+            id="Shape"
+            stroke="currentColor"
+            strokeWidth="5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </g>
       </g>
     </g>
   </svg>

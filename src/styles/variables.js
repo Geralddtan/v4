@@ -13,6 +13,12 @@ import { css } from 'styled-components';
 //   --green: #64ffda;
 //   --green-tint: rgba(100, 255, 218, 0.1);
 
+// Navy - background
+// Slate - Words color + Data Scientist
+// Light-slate - achievement word color
+// Lightest-slate - Main headers + ‘Gerald Tan’
+// Green - words at front page + header numbering
+
 const variables = css`
   :root {
     --dark-navy: #020c1b;

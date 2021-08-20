@@ -68,7 +68,11 @@ const StyledCredit = styled.div`
 `;
 
 const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
+  // const [githubInfo, setGitHubInfo] = useState({
+  //   stars: null,
+  //   forks: null,
+  // });
+  const [setGitHubInfo] = useState({
     stars: null,
     forks: null,
   });
@@ -108,7 +112,7 @@ const Footer = () => {
         <a href="https://github.com/bchiang7/v4">
           <div>Adapted from Brittany Chiang's Design on Github</div>
 
-          {githubInfo.stars && githubInfo.forks && (
+          {/* {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>
                 <Icon name="Star" />
@@ -119,7 +123,7 @@ const Footer = () => {
                 <span>{githubInfo.forks.toLocaleString()}</span>
               </span>
             </div>
-          )}
+          )} */}
         </a>
       </StyledCredit>
     </StyledFooter>

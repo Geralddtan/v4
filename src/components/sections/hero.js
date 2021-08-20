@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Fragment } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
@@ -63,16 +63,19 @@ const Hero = () => {
   const two = <h2 className="big-heading">Gerald Tan.</h2>;
   const three = <h3 className="big-heading">Data Scientist.</h3>;
   const four = (
-    <p>
-      I'm a Data Scientist who loves to build new products which enhances the world. Currently, I'm
-      focused on building a Multi Object Tracking model to track soccer players on broadcast soccer
-      videos.
-      {/* {' '} */}
-      {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+    <Fragment>
+      <p>
+        I love to build new products which enhances the world.
+        <br></br>
+        Currently, I'm focused on building a Multi Object Tracking model to track soccer players on
+        broadcast soccer videos.
+        {/* {' '} */}
+        {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
         Upstatement
       </a>
       . */}
-    </p>
+      </p>
+    </Fragment>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">

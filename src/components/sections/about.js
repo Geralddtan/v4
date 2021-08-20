@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, Fragment } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -136,11 +136,15 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              I am Gerald a Final year Business Analytics undergraduate studying at the National
-              University of Singapore! Professionally, I aim to enter the field of Data
-              Science/Analytics and in my free time, i enjoy watching soccer!
-            </p>
+            <Fragment>
+              <p>
+                I am Gerald, a Final year Business Analytics undergraduate studying at the National
+                University of Singapore and graduating in May 2022!
+                <br></br>I am an avid soccer fan and am currently working on my final year
+                dissertation on multi object soccer tracking (Computer Vision). After my graduation
+                I hope to enter the field of Data Science/Analytics!
+              </p>
+            </Fragment>
 
             {/* <p>
               Fast-forward to today, and I've had the privilege of working at{' '}
