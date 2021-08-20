@@ -1,7 +1,7 @@
 ---
 date: '2019-05-01'
 title: 'Data Science Researcher'
-company: 'ASTAR Genome Institute of Singapore'
+company: 'ASTAR (GIS)'
 location: 'Singapore'
 range: 'May 19 – Jul 19'
 url: 'https://csb5.github.io'
