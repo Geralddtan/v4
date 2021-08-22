@@ -9,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-Awarded Joint Authorship for Manuscript accepted into PLOS Computational Biology Journal, performing accurate inference of ecological interactions from cross-sectional microbiome data
+Awarded Joint Authorship for Manuscript accepted into PLOS Computational Biology Journal, performing accurate inference of ecological interactions from cross-sectional microbiome data.

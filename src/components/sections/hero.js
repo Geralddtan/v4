@@ -69,6 +69,8 @@ const Hero = () => {
         <br></br>
         Currently, I'm focused on building a Multi Object Tracking model to track soccer players on
         broadcast soccer videos.
+        <br></br>
+        Scroll down to find out more!
         {/* {' '} */}
         {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
         Upstatement

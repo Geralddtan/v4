@@ -173,6 +173,7 @@ const StyledProject = styled.li`
 
     a {
       ${({ theme }) => theme.mixins.inlineLink};
+      color: #f08080;
     }
   }
 
@@ -337,7 +338,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Achievements
+        Most Notable Work/Achievements
       </h2>
 
       <StyledProjectsGrid>
