@@ -13,4 +13,4 @@ tech:
 showInProjects: true
 ---
 
-Currently pursuing a Computer Vision research paper on multi object tracking of soccer players from live broadcast videos. I hope to provide a platform to democratise sports analytics in soccer through easy access to match tracking data. This project is under the guidiance of Prof Dong [https://www.comp.nus.edu.sg/cs/bio/dongjs/]
+Currently pursuing a Computer Vision research paper on multi object tracking of soccer players from live broadcast videos. I hope to provide a platform to democratise sports analytics in soccer through easy access to match tracking data. This project is under the guidiance of <a href = 'https://www.comp.nus.edu.sg/cs/bio/dongjs/' color='hotpink'> Prof Dong </a>
