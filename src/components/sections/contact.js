@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am currently looking for full time roles in Data Science/Data Analytics/Software
+        I am currently looking for full time roles in Data Science, Data Analytics, Software
         Engineering. Let's get in touch!
       </p>
 

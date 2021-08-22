@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: '1st Runner Up – NTU iNTUition v7.0 Hackathon'
+title: 'Project CheatSheet Builder'
 cover: './image.png'
 github: 'https://github.com/Geralddtan/CheatSheet-Builder'
 external: 'https://devpost.com/software/cheatsheet-builder-t0iwer'
@@ -10,8 +10,8 @@ tech:
   - ExpressJS
   - Flask
   - Python
-  - OpenCV East CNN
 showInProjects: true
 ---
 
-Developed an automated cheat sheet builder webpage with React, ExpressJS and Flask - utilising OpenCV East CNN model for text font size detection and a custom 2D packing algorithm for optimal packing as final output
+1st Runner Up for NTU iNTUition v7.0 Hackathon, one of the largest student run hackathons.
+Developed an automated cheat sheet builder webpage which takes in images and outputs a perfectly formatted document with the images packed neatly.

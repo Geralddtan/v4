@@ -1,7 +1,7 @@
 ---
 date: '2'
-title: 'Winner - LifeHack2020 NUS School of Computing Hackathon'
-cover: ''
+title: 'Breast Cancer Detection'
+cover: './Tableau-dashboard.png'
 github: ''
 external: ''
 tech:
@@ -11,4 +11,5 @@ tech:
 showInProjects: true
 ---
 
-Achieved first place in the Singapore wide healthcare analytics and visualisation hackathon focussing on aiding patients and doctors in breast cancer detection and awareness using Logistic Regression & Resnet18 CNN with Tableau Visualisations
+Winner - LifeHack2020 NUS School of Computing Hackathon.
+Developed ensemble model of Logistic Regression and Resnet18 CNN Model for breast cancer detection with Data Storytelling through Tableau dashboards to raise awareness of breast cancer in Singapore.
