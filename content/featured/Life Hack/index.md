@@ -2,7 +2,7 @@
 date: '2'
 title: 'Breast Cancer Detection'
 cover: './Tableau-dashboard.png'
-github: './https://github.com/Geralddtan/BreastCancerPrediction'
+github: 'https://github.com/Geralddtan/BreastCancerPrediction'
 external: ''
 tech:
   - Python
