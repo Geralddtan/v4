@@ -6,7 +6,7 @@ module.exports = {
     description:
       'Gerald is a Data Scientist who loves to build new products which enhances the world.',
     siteUrl: 'https://geraldtan.netlify.app', // No trailing slash allowed!
-    image: '/frontpage.png', // Path to your image you placed in the 'static' folder
+    image: './frontpage.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
   plugins: [
