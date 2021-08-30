@@ -5,9 +5,9 @@ module.exports = {
     title: 'Gerald Tan',
     description:
       'Gerald is a Data Scientist who loves to build new products which enhances the world.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    siteUrl: 'https://geraldtan.netlify.app', // No trailing slash allowed!
+    image: '/frontpage.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
